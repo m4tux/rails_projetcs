@@ -1,0 +1,7 @@
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2013-11-08 18:34:11 +0100
+Connecting to database specified by database.yml
+Processing by Rails::InfoController#properties as HTML
+  Rendered inline template (1.2ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
