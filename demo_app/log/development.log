@@ -2481,3 +2481,94 @@ Served asset /users.js - 304 Not Modified (0ms)
 Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2013-11-08 19:36:16 +0100
 Served asset /microposts.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
+
+
+Started GET "/users/" for 127.0.0.1 at 2013-11-17 23:25:43 +0100
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 373ms (Views: 325.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /application.css - 200 OK (18ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /microposts.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /jquery.js - 200 OK (90ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /microposts.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /jquery_ujs.js - 200 OK (31ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:44 +0100
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-11-17 23:25:48 +0100
+Served asset /rails.png - 304 Not Modified (16ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/microposts.css?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /microposts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/microposts.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /microposts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 23:25:53 +0100
+Served asset /application.js - 304 Not Modified (1ms)
