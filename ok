@@ -1,0 +1,113 @@
+[master f476eb8] highcharts tested ok
+ 48 files changed, 1587 insertions(+), 35 deletions(-)
+ create mode 100644 demo_app/tmp/cache/assets/CF0/DA0/sprockets%2Fd7d5b37686831d37c4dd75e645f5e016
+ create mode 100644 demo_app/tmp/cache/assets/E25/4C0/sprockets%2Fde2fd9fd11c04a582cdbbe3d84a35ae6
+ create mode 100644 highcharts-rails-master.zip
+ create mode 100755 pure_ruby/MegaGreeter.rb
+ create mode 100644 pure_ruby/hello_world.rb
+ create mode 100755 pure_ruby/loops.rb
+ mode change 100644 => 100755 sample_app/.gitignore
+ mode change 100644 => 100755 sample_app/Gemfile
+ mode change 100644 => 100755 sample_app/Gemfile.lock
+ mode change 100644 => 100755 sample_app/README.rdoc
+ mode change 100644 => 100755 sample_app/Rakefile
+ mode change 100644 => 100755 sample_app/app/assets/images/rails.png
+ mode change 100644 => 100755 sample_app/app/assets/javascripts/application.js
+ create mode 100644 sample_app/app/assets/javascripts/highcharts.js
+ create mode 100755 sample_app/app/assets/javascripts/orders.js.coffee
+ mode change 100644 => 100755 sample_app/app/assets/javascripts/static_pages.js.coffee
+ mode change 100644 => 100755 sample_app/app/assets/javascripts/users.js.coffee
+ create mode 100755 sample_app/app/assets/stylesheets/Blade-2.ttf
+ mode change 100644 => 100755 sample_app/app/assets/stylesheets/application.css
+ mode change 100644 => 100755 sample_app/app/assets/stylesheets/custom.css.scss
+ create mode 100755 sample_app/app/assets/stylesheets/orders.css.scss
+ create mode 100755 sample_app/app/assets/stylesheets/scaffolds.css.scss
+ mode change 100644 => 100755 sample_app/app/assets/stylesheets/static_pages.css.scss
+ mode change 100644 => 100755 sample_app/app/assets/stylesheets/users.css.scss
+ mode change 100644 => 100755 sample_app/app/controllers/application_controller.rb
+ create mode 100755 sample_app/app/controllers/orders_controller.rb
+ mode change 100644 => 100755 sample_app/app/controllers/static_pages_controller.rb
+ mode change 100644 => 100755 sample_app/app/controllers/users_controller.rb
+ mode change 100644 => 100755 sample_app/app/helpers/application_helper.rb
+ create mode 100755 sample_app/app/helpers/orders_helper.rb
+ mode change 100644 => 100755 sample_app/app/helpers/static_pages_helper.rb
+ mode change 100644 => 100755 sample_app/app/helpers/users_helper.rb
+ mode change 100644 => 100755 sample_app/app/mailers/.gitkeep
+ mode change 100644 => 100755 sample_app/app/models/.gitkeep
+ create mode 100755 sample_app/app/models/order.rb
+ mode change 100644 => 100755 sample_app/app/models/user.rb
+ mode change 100644 => 100755 sample_app/app/views/layouts/_footer.html.erb
+ mode change 100644 => 100755 sample_app/app/views/layouts/_shim.html.erb
+ mode change 100644 => 100755 sample_app/app/views/layouts/application.html.erb
+ create mode 100755 sample_app/app/views/orders/_form.html.erb
+ create mode 100755 sample_app/app/views/orders/edit.html.erb
+ create mode 100755 sample_app/app/views/orders/index.html.erb
+ create mode 100755 sample_app/app/views/orders/new.html.erb
+ create mode 100755 sample_app/app/views/orders/show.html.erb
+ create mode 100644 sample_app/app/views/orders/t
+ mode change 100644 => 100755 sample_app/app/views/shared/_error_messages.html.erb
+ mode change 100644 => 100755 sample_app/app/views/static_pages/about.html.erb
+ create mode 100644 sample_app/app/views/static_pages/contact.html.erb
+ mode change 100644 => 100755 sample_app/app/views/static_pages/help.html.erb
+ mode change 100644 => 100755 sample_app/app/views/static_pages/home.html.erb
+ mode change 100644 => 100755 sample_app/app/views/users/new.html.erb
+ mode change 100644 => 100755 sample_app/app/views/users/show.html.erb
+ create mode 100755 sample_app/app/views/users/showall.html.erb
+ mode change 100644 => 100755 sample_app/config.ru
+ mode change 100644 => 100755 sample_app/config/application.rb
+ mode change 100644 => 100755 sample_app/config/boot.rb
+ mode change 100644 => 100755 sample_app/config/database.yml
+ create mode 100755 sample_app/config/database.yml.bak
+ mode change 100644 => 100755 sample_app/config/environment.rb
+ mode change 100644 => 100755 sample_app/config/environments/development.rb
+ mode change 100644 => 100755 sample_app/config/environments/production.rb
+ mode change 100644 => 100755 sample_app/config/environments/test.rb
+ mode change 100644 => 100755 sample_app/config/initializers/backtrace_silencers.rb
+ mode change 100644 => 100755 sample_app/config/initializers/inflections.rb
+ mode change 100644 => 100755 sample_app/config/initializers/mime_types.rb
+ mode change 100644 => 100755 sample_app/config/initializers/secret_token.rb
+ mode change 100644 => 100755 sample_app/config/initializers/session_store.rb
+ mode change 100644 => 100755 sample_app/config/initializers/wrap_parameters.rb
+ mode change 100644 => 100755 sample_app/config/locales/en.yml
+ mode change 100644 => 100755 sample_app/config/routes.rb
+ mode change 100644 => 100755 sample_app/db/migrate/20131112144658_create_users.rb
+ mode change 100644 => 100755 sample_app/db/migrate/20131112161020_add_index_to_users_email.rb
+ mode change 100644 => 100755 sample_app/db/migrate/20131112161737_add_password_digest_to_users.rb
+ create mode 100755 sample_app/db/migrate/20131117224634_create_orders.rb
+ mode change 100644 => 100755 sample_app/db/schema.rb
+ mode change 100644 => 100755 sample_app/db/seeds.rb
+ mode change 100644 => 100755 sample_app/doc/README_FOR_APP
+ mode change 100644 => 100755 sample_app/lib/assets/.gitkeep
+ mode change 100644 => 100755 sample_app/lib/tasks/.gitkeep
+ mode change 100644 => 100755 sample_app/log/.gitkeep
+ mode change 100644 => 100755 sample_app/public/404.html
+ mode change 100644 => 100755 sample_app/public/422.html
+ mode change 100644 => 100755 sample_app/public/500.html
+ mode change 100644 => 100755 sample_app/public/favicon.ico
+ mode change 100644 => 100755 sample_app/public/fucker.html
+ mode change 100644 => 100755 sample_app/public/index.html.bak
+ mode change 100644 => 100755 sample_app/public/robots.txt
+ create mode 100755 sample_app/spec/controllers/orders_controller_spec.rb
+ mode change 100644 => 100755 sample_app/spec/controllers/static_pages_controller_spec.rb
+ create mode 100755 sample_app/spec/helpers/orders_helper_spec.rb
+ mode change 100644 => 100755 sample_app/spec/helpers/static_pages_helper_spec.rb
+ create mode 100755 sample_app/spec/models/order_spec.rb
+ mode change 100644 => 100755 sample_app/spec/models/user_spec.rb
+ create mode 100755 sample_app/spec/requests/orders_spec.rb
+ mode change 100644 => 100755 sample_app/spec/requests/static_pages_spec.rb
+ create mode 100755 sample_app/spec/routing/orders_routing_spec.rb
+ mode change 100644 => 100755 sample_app/spec/spec_helper.rb
+ create mode 100755 sample_app/spec/views/orders/edit.html.erb_spec.rb
+ create mode 100755 sample_app/spec/views/orders/index.html.erb_spec.rb
+ create mode 100755 sample_app/spec/views/orders/new.html.erb_spec.rb
+ create mode 100755 sample_app/spec/views/orders/show.html.erb_spec.rb
+ mode change 100644 => 100755 sample_app/spec/views/static_pages/....html.erb_spec.rb
+ mode change 100644 => 100755 sample_app/test/fixtures/.gitkeep
+ mode change 100644 => 100755 sample_app/test/functional/.gitkeep
+ mode change 100644 => 100755 sample_app/test/integration/.gitkeep
+ mode change 100644 => 100755 sample_app/test/performance/browsing_test.rb
+ mode change 100644 => 100755 sample_app/test/test_helper.rb
+ mode change 100644 => 100755 sample_app/test/unit/.gitkeep
+ mode change 100644 => 100755 sample_app/vendor/assets/javascripts/.gitkeep
+ mode change 100644 => 100755 sample_app/vendor/assets/stylesheets/.gitkeep
+ mode change 100644 => 100755 sample_app/vendor/plugins/.gitkeep
